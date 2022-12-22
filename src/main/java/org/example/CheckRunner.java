@@ -10,7 +10,6 @@ public class CheckRunner {
         Shop.addProduct(8, "картошка",3.6,true);
         Shop.addProduct(8, "сахар",2.4);
 
-
         CashReceipt cashReceipt = new CashReceipt();
         cashReceipt.CheckRunner(1,5);
 
